@@ -1,3 +1,7 @@
+/*The main difference between const and final is that const can be considered as a compile-time constant
+while final can be considered as a run-time constant. So when you want the constant value and you are aware 
+of the value to be assigned, at the compile-time itself, you can use const!
+*/
 void main(List<String> args) {
   print(args);
 
